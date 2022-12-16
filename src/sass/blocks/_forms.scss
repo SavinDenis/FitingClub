@@ -1,0 +1,112 @@
+.form {
+    margin-top: 20px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 21px;
+
+        &-input {
+            position: relative;
+        }
+
+        &-lable {
+            position: absolute;
+            top: -9px;
+            left: 13px;
+            border: none;
+            background-color: #fff;
+            padding: 0 8px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            margin: 0;
+        }
+    }
+
+    &__textarea {
+
+        &-input {
+            position: relative;
+        }
+
+        &-lable {
+            
+            position: absolute;
+            top: -9px;
+            left: 13px;
+            border: none;
+            background-color: #fff;
+            padding: 0 8px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            margin: 0;
+        }
+
+    }
+
+    &__title {
+        margin-bottom: 30px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    &__submit {
+        margin-top: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-link {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            padding-left: 10px;
+        }
+
+        &-checkbox {
+            height: 14px;
+            display: flex;
+            align-items: center;
+        }
+
+    }
+
+    &__btn {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 700;
+    }
+
+}
+
+#name,
+#email {
+
+    height: 45px;
+    width: 280px;
+    border-radius: none;
+}
+
+#name {
+    &::placeholder {
+        padding: 0 20px;
+    }
+}
+
+#textarea {
+    width: 100%;
+    min-height: 190px;
+    resize: none;
+}
+
+#checkbox {
+    width: 13px;
+    height: 13px;
+    border: 1px solid #000;
+    border-radius: none;
+}
+
+
+

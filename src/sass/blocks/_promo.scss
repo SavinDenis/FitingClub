@@ -1,0 +1,160 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    background-image: url('../../img/mainbg1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    &__wrapper {
+        margin: 0 auto;
+        max-width: 1440px;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: 40px 40px 150px auto;
+        row-gap: 30px;
+    }
+
+    &__kandzy {
+        height: 100%;
+        grid-row: 2 / 5;
+        grid-column: 1 / 2;
+    }
+
+    &__ichigeki {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        grid-row: 2/ 5;
+        grid-column: 4 / 5;
+    }
+
+    &__phone {
+        padding: 30px;
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        align-self: center;
+        
+        a {
+            font-size: 32px;
+            text-decoration: none;
+            transition: 0.5s all;
+            font-weight: 700;
+            color:#da251d;
+
+            &:hover {
+                font-size: 36px;
+                color:#da251d;
+            }
+        }
+    }
+
+    &__message {
+        align-self: center;
+        padding: 30px;
+        grid-column: 3 / 5;
+        grid-row: 1 / 2;
+        justify-self: end;
+        
+
+
+        a {
+            font-size: 22px;
+            padding: 12px 25px;
+            /* background-color: #fff; */
+            border-radius: 5px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            text-decoration: none;
+            transition: 0.5s all;
+            background-color:#da251d;
+            
+            
+
+            &:hover {
+                background-color: #fff;
+                /* background-color:#da251d; */
+                /* color: #f1f1f1; */color:#da251d;
+            }
+        }
+    }
+
+    &__content {
+        
+        grid-column: 2 / 3;
+        grid-row: 3 / 5;
+        align-self:flex-end ;
+        
+    }
+
+    &__nav {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            font-size: 20px;
+            color: #313131;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        li {
+            display: block;
+            list-style: none;
+
+            a {
+                
+                text-decoration: none;
+                background-image: linear-gradient(#da251d, #da251d);
+                background-position: 0% 100%;
+                background-repeat: no-repeat;
+                background-size: 0% 3px;
+                transition: background-size .5s;
+
+                &:hover {
+                  
+                    color: #333333;
+                    background-size: 100% 3px;
+                }
+            }
+        }
+    }
+
+    &__title {
+        display: block;
+        position: relative;
+        
+       
+        font-size: 40px;
+        line-height: 50px;
+        color:#da251d;
+        &::before {
+            top: 3px;
+            left: 0;
+            position: absolute;
+            height: 40px;
+            width: 40px;
+            content:'     ';
+            background-image: url(../../img/kanku3.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+        
+            z-index: 1;
+        }
+    }
+
+    &__text {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    &__subtitle {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+}

@@ -1,0 +1,45 @@
+@mixin before_circle {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        background-color: $main-color;
+        border-radius: 100%;
+        z-index: -1;
+        left: 0;
+        top: 50%;
+        transform: translateY(-51%);
+    }
+}
+
+@mixin before_circle_about {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        background-color: $main-color;
+        border-radius: 100%;
+        z-index: -1;
+        left: 0;
+        top: 0;
+
+    }
+}
+
+@mixin before_circle_experience {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        background-color: $main-color;
+        border-radius: 100%;
+        z-index: -1;
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%);
+
+    }
+}
