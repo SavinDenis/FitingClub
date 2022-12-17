@@ -2,11 +2,11 @@
     &__wrapper {
         margin-top: 50px;
         display: grid;
-        grid-template-columns: repeat(2, 450px);
-        grid-template-rows: repeat(auto, auto);
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+       
         align-items: center;
         justify-content: space-between;
-        gap: 25px;
+        gap: 40px;
     }
     &__item {
        

@@ -33,13 +33,19 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 section {
-    padding: 70px 15px;
+    padding: 70px 20px;
 }
 
+@import 'blocks/title';
+@import 'blocks/hamburger';
+@import 'blocks/menu';
 @import 'blocks/promo';
 @import 'blocks/about';
-@import 'blocks/title';
+
 @import 'blocks/reason';
 
+
+
+@import 'blocks/media';
 
 
