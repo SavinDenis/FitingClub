@@ -1,0 +1,32 @@
+.timetable {
+    background: url(../img/main_bg.jpg) center center/cover no-repeat;
+    &__wrapper {
+       
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 350px);
+        justify-content: space-between;
+
+    }
+    &__item {
+        background-color: rgba($color: #fff, $alpha: 0.5);
+        &-city {
+            text-transform: uppercase;
+            font-size: 20px;
+
+        }
+        &-adress {
+            font-size: 16px;
+            margin-top: 20px;
+            font-weight: 700;
+        }
+        &-list>li {
+            margin-top: 15px;
+            font-size: 22px;
+            font-weight: 700;
+        }
+    }
+    &__btn {
+        max-width: 300;
+        margin: 0 auto;
+    }
+}

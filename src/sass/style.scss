@@ -25,6 +25,10 @@ h1,h2,h3,h4,h5,h6,p {
     padding: 0;
 }
 
+li{
+    list-style-type: none;
+}
+
 
 
 .container {
@@ -41,9 +45,13 @@ section {
 @import 'blocks/menu';
 @import 'blocks/promo';
 @import 'blocks/about';
+@import 'blocks/card';
+
+
 
 @import 'blocks/reason';
-
+@import 'blocks/timetable';
+@import 'blocks/prices';
 
 
 @import 'blocks/media';
