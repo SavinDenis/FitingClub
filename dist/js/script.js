@@ -1,3 +1,5 @@
+
+
 const hamburger = document.querySelector('.hamburger'),
         menu = document.querySelector('.menu'),
         closeElem = document.querySelector('.menu__close');
@@ -17,4 +19,6 @@ const counters = document.querySelectorAll('.skills__ratings-counter'),
             lines[i].style.width = item.innerHTML;
         });
 
+
+        new WOW().init();       
         

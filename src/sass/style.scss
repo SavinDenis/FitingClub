@@ -1,4 +1,9 @@
+
+
 @import 'base/fonts';
+
+@import 'blocks/icomoon';
+
 @import 'libs/bootstrap-reboot.min';
 @import 'base/variables';
 @import 'base/mixins';
@@ -40,6 +45,10 @@ section {
     padding: 70px 20px;
 }
 
+
+@import 'blocks/slick-theme';
+@import 'blocks/slick';
+
 @import 'blocks/title';
 @import 'blocks/hamburger';
 @import 'blocks/menu';
@@ -52,6 +61,7 @@ section {
 @import 'blocks/reason';
 @import 'blocks/timetable';
 @import 'blocks/prices';
+@import 'blocks/blog';
 
 
 @import 'blocks/media';
