@@ -1,9 +1,9 @@
 
 
 @import 'base/fonts';
-
+@import 'base/scrollup';
 @import 'blocks/icomoon';
-
+@import 'blocks/overlay';
 @import 'libs/bootstrap-reboot.min';
 @import 'base/variables';
 @import 'base/mixins';
@@ -49,13 +49,14 @@ section {
 @import 'blocks/slick-theme';
 @import 'blocks/slick';
 
+@import 'blocks/forms';
 @import 'blocks/title';
 @import 'blocks/hamburger';
 @import 'blocks/menu';
 @import 'blocks/promo';
 @import 'blocks/about';
 @import 'blocks/card';
-
+@import 'blocks/buttons';
 
 
 @import 'blocks/reason';

@@ -61,7 +61,7 @@
     </div>
 
 
-    <section class="promo">
+    <section class="promo" id="scrollup">
 
         <div class="hamburger">
             <div class="hamburger__short"></div>
@@ -77,9 +77,13 @@
             <div class="promo__phone">
                 <a href="tel:899999999">8 (999) 999-99-99</a>
             </div>
-            <div class="promo__message ">
-                <a href="#">Бесплатная тренировка</a>
+            <div class="promo__message">
+                <button data-modal="modal__main" class="button">
+                    Бесплатная тренировка
+                </button>
             </div>
+
+        
 
             <div class="promo__content">
                 <h1 class="title promo__title">КИОКУСИНКАЙ КАРАТЕ</h1>
@@ -171,7 +175,7 @@
                 помимо развития визической выносливости и силы воли, занятия карате тренируют самодисциплину
             </div>
             <div class="reason__wrapper">
-                <div class="reason__item wow animate__animated animate__fadeInUp" data-wow-delay="1s" >
+                <div class="reason__item wow animate__animated animate__fadeInUp" data-wow-delay="1s">
                     <img src="img/kanku3.png" alt="">
                     <div class="reason__subtitle">
                         Повышение дисциплины
@@ -237,7 +241,7 @@
                         adipisci non ratione!
                     </div>
                 </div>
-                <div class="reason__item wow animate__animated animate__fadeInUp" data-wow-delay="1s" >
+                <div class="reason__item wow animate__animated animate__fadeInUp" data-wow-delay="1s">
                     <img src="img/kanku3.png" alt="">
                     <div class="reason__subtitle">
                         Развитие реакции
@@ -273,7 +277,8 @@
                 мы ждем вас на тренировки в одном из наших залов
             </div>
             <div class="timetable__wrapper">
-                <div class=" card timetable__item wow animate__animated animate__fadeInUp" data-wow-delay="1s" data-wow-offset="100">
+                <div class=" card timetable__item wow animate__animated animate__fadeInUp" data-wow-delay="1s"
+                    data-wow-offset="100">
                     <h3 class="timetable__item-city">мытищи</h3>
                     <div class="timetable__item-adress"><a href="#">1-й Добролюбовский пр-д, 30, Пушкино, Московская
                             обл., Россия, 141200</a> </div>
@@ -283,7 +288,8 @@
                         <li>Пятница 13.00-15.00</li>
                     </ul>
                 </div>
-                <div class="card  timetable__item wow animate__animated animate__fadeInUp" data-wow-delay="1.2s"data-wow-offset="100">
+                <div class="card  timetable__item wow animate__animated animate__fadeInUp" data-wow-delay="1.2s"
+                    data-wow-offset="100">
                     <h3 class="timetable__item-city">Пушкино</h3>
                     <div class="timetable__item-adress"><a href="#">1-й Добролюбовский пр-д, 30, Пушкино, Московская
                             обл., Россия, 141200</a> </div>
@@ -293,7 +299,8 @@
                         <li>Пятница 13.00-15.00</li>
                     </ul>
                 </div>
-                <div class="card  timetable__item wow animate__animated animate__fadeInUp" data-wow-delay="1.4s"data-wow-offset="100">
+                <div class="card  timetable__item wow animate__animated animate__fadeInUp" data-wow-delay="1.4s"
+                    data-wow-offset="100">
                     <h3 class="timetable__item-city">Софрино-1</h3>
                     <div class="timetable__item-adress"><a href="#">1-й Добролюбовский пр-д, 30, Пушкино, Московская
                             обл., Россия, 141200</a> </div>
@@ -304,8 +311,10 @@
                     </ul>
                 </div>
             </div>
-            <div class="timetable__btn promo__message modal__window">
-                <a href="#">Бесплатная тренировка</a>
+            <div class="timetable__btn">
+                <button data-modal="modal__main" class="button">
+                   Записаться на тренировку
+                </button>
             </div>
         </div>
     </section>
@@ -326,13 +335,13 @@
                     <div class="prices__item-descr">оплата за 10-12 тренировок <br> в течение одного календарного месяца
                     </div>
                 </div>
-                <div class="card  prices__item wow animate__animated animate__fadeInUp"data-wow-delay="1.2s">
+                <div class="card  prices__item wow animate__animated animate__fadeInUp" data-wow-delay="1.2s">
                     <h3 class="prices__item-name">Взрослый</h3>
                     <div class="prices__item-cost">4000 p.</div>
                     <div class="prices__item-descr">оплата за 10-12 тренировок <br> в течение одного календарного месяца
                     </div>
                 </div>
-                <div class=" card prices__item wow animate__animated animate__fadeInUp"data-wow-delay="1.4s">
+                <div class=" card prices__item wow animate__animated animate__fadeInUp" data-wow-delay="1.4s">
                     <h3 class="prices__item-name">За двоих</h3>
                     <div class="prices__item-cost">5000 p.</div>
                     <div class="prices__item-descr">оплата за 10-12 тренировок <br> в течение одного календарного месяца
@@ -342,13 +351,11 @@
                 </div>
 
             </div>
-            <div class="prices__descr">
-                Для того чтобы посмотреть как проходят тренировки и принять решение, вы можете посетить первую
-                тренировку бесплатно. Для этого, пожалуйста, выберите место тренировки и запишитесь по телефону <a
-                    href="tel:8999999999">8 (999) 999-99-99</a>
-            </div>
-            <div class="promo__message modal__window">
-                <a href="#">Бесплатная тренировка</a>
+           
+            <div class="prices__btn">
+                <button data-modal="modal__main" class="button">
+                    Записаться на тренировку
+                </button>
             </div>
         </div>
     </section>
@@ -385,6 +392,31 @@
 
 
 
+    <div class="overlay">
+        <div class="modal" id="modal__main">
+            <div class="modal__close">&times;</div>
+            <div class="modal__title">
+                Просто заполните форму 
+            </div>
+            <div class="modal__subtitle">
+                мы перезвоним Вам в ближайшее время
+            </div>
+            <form action="#" class="form form__main js-modalform-consultation">
+                <input name="name" placeholder="Ваше имя" type="text">
+                <input name="phone" placeholder="Ваш телефон">
+                <input name="email" placeholder="Ваш e-mail" type="email">
+                <button class="button button_form" type="submit">Записаться на тренировку</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+    <a href="#scrollup" class="pageup">
+        <img class="icon" src="icons/circle-up.svg" alt="up">
+    </a>
 
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
