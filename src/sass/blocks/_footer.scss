@@ -1,53 +1,29 @@
 .footer {
-    padding-bottom: 92px;
-
+    
+     height: 80px;
+     background-color: $main-color;
+     
     &__wrapper {
+        margin: auto auto;
+        padding: 0 20px;
+        max-width: 1440px;
+        height: 80px;
         display: flex;
         justify-content: space-between;
-        max-width: 1040px;
-
+        align-items: center
+        
     }
-
-    &__content {
-        min-width: 585px;
-
-    }
-
-    &__subtitle {
-        position: relative;
-        font-size: 16px;
-        line-height: 37px;
-        @include before_circle;
-        z-index: 2;
-        padding-left: 13px;
-    }
-
-    &__text {
-        margin-top: 20px;
-        font-size: 14px;
-        line-height: 21px;
-        font-weight: 700;
-    }
-
     &__social {
-        margin-top: 20px;
-        height: 30px;
-
-        &-link {
-            margin-right: 15px;
-        }
-
-        &-link>img {
-            height: 100%;
-        }
-
-
+        min-width: 150px;
+        display: flex;
+        justify-content: space-between;
     }
-
-
+    &__tel {
+        min-width: 150px;
+    }
+    &__mail {
+        min-width: 150px;
+        text-align: end;
+    }
 }
-
-.divider__footer {
-    margin-inline-start: 0;
-    margin-top: 4px;
-}
+   

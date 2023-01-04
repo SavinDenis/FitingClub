@@ -46,10 +46,10 @@
             <nav class="menu__nav">
                 <ul class="menu__list">
                     <li class="menu__link"><a href="#">ГЛАВНАЯ</a></li>
-                    <li class="menu__link"><a href="#">МЕРОПРИЯТИЯ</a></li>
-                    <li class="menu__link"><a href="#">КОНТАКТЫ</a></li>
-                    <li class="menu__link"><a href="#">РАСПИСАНИЕ</a></li>
-                    <li class="menu__link"><a href="#">СПРАВОЧНИК</a></li>
+                    <li class="menu__link"><a href="#timetable-link">РАСПИСАНИЕ</a></li>
+                    <li class="menu__link"><a href="#blog-link">МЕРОПРИЯТИЯ</a></li>
+                    <li class="menu__link"><a href="#notation-link">СПРАВОЧНИК</a></li>
+                    <li class="menu__link"><a href="#contacts-link">КОНТАКТЫ</a></li>
                 </ul>
             </nav>
             <div class="menu__social">
@@ -83,7 +83,7 @@
                 </button>
             </div>
 
-        
+
 
             <div class="promo__content">
                 <h1 class="title promo__title">КИОКУСИНКАЙ КАРАТЕ</h1>
@@ -96,16 +96,16 @@
                         <a class="promo__nav-link" href="#">Главная</a>
                     </li>
                     <li>
-                        <a class="promo__nav-link" href="#">Мероприятия</a>
+                        <a class="promo__nav-link" href="#timetable-link">Расписание</a>
                     </li>
                     <li>
-                        <a class="promo__nav-link" href="#">Контакты</a>
+                        <a class="promo__nav-link" href="#blog-link">Мероприятия</a>
                     </li>
                     <li>
-                        <a class="promo__nav-link" href="#"> Расписание</a>
+                        <a class="promo__nav-link" href="#notation-link">Справочник</a>
                     </li>
                     <li>
-                        <a class="promo__nav-link" href="#">Справочник</a>
+                        <a class="promo__nav-link" href="#contacts-link">Контакты</a>
                     </li>
                 </ul>
             </nav>
@@ -267,7 +267,7 @@
         </div>
     </section>
 
-    <section class="timetable">
+    <section class="timetable" id="timetable-link">
         <div class="container">
             <div class="title">
                 РАСПИСАНИЕ ТРЕНИРОВОК
@@ -283,9 +283,8 @@
                     <div class="timetable__item-adress"><a href="#">1-й Добролюбовский пр-д, 30, Пушкино, Московская
                             обл., Россия, 141200</a> </div>
                     <ul class="timetable__item-list">
-                        <li>Понедельник 13.00-15.00</li>
-                        <li>Среда 13.00-15.00</li>
-                        <li>Пятница 13.00-15.00</li>
+                        <li>Понедельник 17.30-18.30</li>
+                        <li>Среда 17.30-18.30</li>
                     </ul>
                 </div>
                 <div class="card  timetable__item wow animate__animated animate__fadeInUp" data-wow-delay="1.2s"
@@ -294,9 +293,12 @@
                     <div class="timetable__item-adress"><a href="#">1-й Добролюбовский пр-д, 30, Пушкино, Московская
                             обл., Россия, 141200</a> </div>
                     <ul class="timetable__item-list">
-                        <li>Понедельник 13.00-15.00</li>
-                        <li>Среда 13.00-15.00</li>
-                        <li>Пятница 13.00-15.00</li>
+                        <li>ВЗРОСЛЫЕ</li>
+                        <li>Понедельник 20.00-21.00</li>
+                        <li>Среда 20.00-21.00</li>
+                        <li>ДЕТИ</li>
+                        <li>Вторник 15.00-16.00</li>
+                        <li>Четверг 15.00-16.00</li>
                     </ul>
                 </div>
                 <div class="card  timetable__item wow animate__animated animate__fadeInUp" data-wow-delay="1.4s"
@@ -305,21 +307,20 @@
                     <div class="timetable__item-adress"><a href="#">1-й Добролюбовский пр-д, 30, Пушкино, Московская
                             обл., Россия, 141200</a> </div>
                     <ul class="timetable__item-list">
-                        <li>Понедельник 13.00-15.00</li>
-                        <li>Среда 13.00-15.00</li>
-                        <li>Пятница 13.00-15.00</li>
+                        <li>Понедельник 15.00-16.00</li>
+                        <li>Среда 15.00-16.00</li>
                     </ul>
                 </div>
             </div>
             <div class="timetable__btn">
                 <button data-modal="modal__main" class="button">
-                   Записаться на тренировку
+                    Записаться на тренировку
                 </button>
             </div>
         </div>
     </section>
 
-    <section class="prices">
+    <!-- <section class="prices">
         <div class="container">
             <div class="title">
                 СТОИМОСТЬ ТРЕНИРОВОК
@@ -358,9 +359,9 @@
                 </button>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="blog">
+    <section class="blog" id="blog-link">
         <div class="container">
             <div class="title">
                 МЕРОПРИЯТИЯ
@@ -385,6 +386,29 @@
                     <div class="blog__slider-item"><img src="img/SUKKO21/IMG_6189-min.JPG" alt=""></div>
                 </div>
             </div>
+            <div class="blog__items">
+                <div class="blog__item">
+                    <img src="img/SUKKO21/IMG_5673-min.JPG" alt="">
+                    <h4 class="blog__item-title">Мероприятие</h4>
+                    <p class="blog__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit iste
+                        provident voluptatem quaerat neque eaque ab natus dicta unde eveniet sed, laboriosam, mollitia,
+                        delectus saepe consequatur magni. Odio, nihil cumque.</p>
+                </div>
+                <div class="blog__item">
+                    <img src="img/SUKKO21/IMG_5673-min.JPG" alt="">
+                    <h4 class="blog__item-title">Мероприятие</h4>
+                    <p class="blog__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit iste
+                        provident voluptatem quaerat neque eaque ab natus dicta unde eveniet sed, laboriosam, mollitia,
+                        delectus saepe consequatur magni. Odio, nihil cumque.</p>
+                </div>
+                <div class="blog__item">
+                    <img src="img/SUKKO21/IMG_5673-min.JPG" alt="">
+                    <h4 class="blog__item-title">Мероприятие</h4>
+                    <p class="blog__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit iste
+                        provident voluptatem quaerat neque eaque ab natus dicta unde eveniet sed, laboriosam, mollitia,
+                        delectus saepe consequatur magni. Odio, nihil cumque.</p>
+                </div>
+            </div>
 
         </div>
 
@@ -392,11 +416,37 @@
 
 
 
+
+    <footer class="footer" id="contacts-link">
+        <div class="footer__wrapper">
+            <div class="footer__tel">
+                <a href="tel:999999999" class="footer__tel-link">9999999999</a>
+            </div>
+            <div class="footer__social">
+                <div class="footer__social-whatsup">
+                    <a href=""><img src="icons/social/github.svg" alt=""></a>
+                </div>
+                <div  class="footer__social-instagramm">
+                    <a href="" ><img src="icons/social/instagram.svg" alt=""></a>
+                </div>
+                <div class="footer__social-telegramm">
+                    <a href="" ><img src="icons/social/telegram.svg" alt=""></a>
+                </div>
+                
+            </div>
+            <div class="footer__mail">
+                <a href="mailto:den32179@mail.ru" class="footer__mail-link">den32179@mail.ru</a>
+            </div>
+        </div>
+    </footer>
+
+
+
     <div class="overlay">
         <div class="modal" id="modal__main">
             <div class="modal__close">&times;</div>
             <div class="modal__title">
-                Просто заполните форму 
+                Просто заполните форму
             </div>
             <div class="modal__subtitle">
                 мы перезвоним Вам в ближайшее время
